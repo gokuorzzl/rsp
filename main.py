@@ -11,8 +11,9 @@ def main():
     player = Player()
 
     while True:
-        command = input('명령어를 입력해주세요. (명령어 목록: 도움말):')
+        command = input('명령어를 입력해주세요. (명령어 목록: 승부, 정보, 종료):')
         print(command)
+
         if command == '종료':
             break
         elif command == '승부':

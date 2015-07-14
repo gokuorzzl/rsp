@@ -6,7 +6,7 @@ class Player:
     win_win = 0
     best_win_win = 0
     log =0
-    last_batting = 0
+    best_batting = 0
 
     def __init__(self):
         self.coin += 100
