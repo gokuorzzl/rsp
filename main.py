@@ -1,4 +1,5 @@
 from player import Player
+from game import Game
 
 def intro():
     print('*** 본격 사행성 게임 ***')
@@ -16,9 +17,10 @@ def main():
             break
         elif command == '승부':
             print('게임을 시작합니다.')
+            game = Game(player)
+            game.game_start()
         elif command == '정보':
             player.print_info()
-
 
 
 if __name__ == '__main__':
